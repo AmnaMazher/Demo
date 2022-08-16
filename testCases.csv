@@ -1,0 +1,19 @@
+Test Case ID,Description,Enabled,Data File (if not specified default file will be searched according to convention),Test Case Parameters
+NavExpo,Navigate to expoloader,1,,breakOnFail:1
+LoginExpo,Login to expoloader,1,,breakOnFail:1
+PalletLoading,PalletLoading,0,,breakOnFail:1
+20ftStandardContainer,Loading Sku,1,,breakOnFail:1
+20ftHighCubeContainer,loading Sku,0,,breakOnFail:1
+20ftReeferContainer,loading Sku,0,,breakOnFail:1
+40ftStandardDryContainer,loading Sku,0,,breakOnFail:1
+40ftHighCubeContainer,loading Sku,0,,breakOnFail:1
+40ftReeferContainer,Loading Sku,0,,breakOnFail:1
+Loading,loading use case,0,,breakOnFail:0
+Console,run console commands,0,,
+AppConfig,configure target platform and application. Shows how to configure zeen for android platform,0,,
+LoginMobile,LogIn in to mobile application,0,,
+SavePerson,Save Person entity,0,,breakOnFail:1
+Login_1,LogIn in to banking application,0,,
+Logout_1,Logout from banking application,0,testData,
+DepositCash,Deposit cash,0,,breakOnFail:0
+QueryOptimization,Check weather normal and optimized query are equivalent ,0,QueryOptimization_data,
